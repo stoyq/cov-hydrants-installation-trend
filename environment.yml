@@ -1,8 +1,8 @@
-name: hydrant-env
+name: 'hydrant-env'
 channels:
   - conda-forge
 dependencies:
-  - python=3.11
+  - python>=3.11
   - pandas
   - numpy
   - matplotlib
