@@ -15,7 +15,7 @@ The data set that was used in this project can be found [here](https://archive.i
 
 ## Report
 
-The final report can be found [here](https://link.to.pdf).
+The final report can be found [here](doc/heart_disease_project_doc.pdf).
 
 ## Dependencies
   - python>=3.11
