@@ -205,4 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+<<<<<<< HEAD
 .DS_Store
+=======
+.Rproj.user
+>>>>>>> 702e3e3 (Update .gitignore and remove environment.yml)
