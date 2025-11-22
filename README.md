@@ -15,7 +15,7 @@ The dataset that was used in this project can be found [here](https://archive.ic
 
 ## Report
 
-The final report can be found [here](doc/heart_disease_project_doc.pdf).
+The final report can be found [here](doc/heart_disease_predictor.pdf).
 
 ## Dependencies
 
