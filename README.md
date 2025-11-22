@@ -41,35 +41,37 @@ Follow the instructions below to reproduce the analysis.
 
 1. Clone this GitHub repository.
 
-```
-git clone git@github.com:stoyq/heart-disease-predictor.git
-```
+    ```
+    git clone git@github.com:stoyq/heart-disease-predictor.git
+    ```
 
 2. Setup the conda environment by running
 
-```
-conda env create --file environment.yml
-```
+    ```
+    conda env create --file environment.yml
+    ```
 
-Alternatively, we have also provided a conda-lock file. Please refer to the [conda-lock documentation](https://github.com/conda/conda-lock) for basic usage.
+    Alternatively, we have also provided a [conda-lock file](conda-lock.yml). Please refer to the [conda-lock documentation](https://github.com/conda/conda-lock) for basic usage.
 
 3. Once the environment has been created, activate the environment
 
-```
-conda activate group25-env
-```
+    ```
+    conda activate group25-env
+    ```
 
 4. Run Jupyter Lab
 
-```
-jupyter-lab
-```
+    ```
+    jupyter-lab
+    ```
 
-5. If Jupyter Lab asks to select a kernel, choose 'group25-env'
+5. If Jupyter Lab asks to select a kernel, choose `group25-env`
 
 #### Running the analysis
 
-1. Navigate to the analysis folder, and open heart_disease_predictor.ipynb in Jupyter Lab. Then run the notebook from top to bottom by using the top menu: Run -> Run All Cells.
+1. Navigate to the `analysis` folder, and open `heart_disease_predictor.ipynb` in Jupyter Lab. Then run the notebook from top to bottom by using the top menu: Run -> Run All Cells.
+
+      ##### A note about downloading the dataset: Our analysis script is currently set up to fetch the data directly using `ucimlrepo`. We have included a separate notebook `download_data.ipynb` that shows how you can download the raw data into the `data/raw` folder, and then process it into the `data/processed` folder. The raw and processed data in these folders are currently not being read in by our analysis script, but are just included for reference.
 
 2. To reproduce the PDF, in Jupyter Lab: File -> Save and Export Notebook As -> PDF. Note: Additional libraries related to LaTeX may be required. If you run into a problem reproducing the PDF, you can also output a HTML file. If there are further issues, feel free to reach out to the authors of this project via their GitHub accounts.
 
